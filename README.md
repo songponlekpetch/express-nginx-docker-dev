@@ -19,3 +19,7 @@ Run docker-compose
 
 Remove docker-compose and remove existing images
 > docker-compose down --rmi all
+
+
+## Automatically update when you edit express on local
+Let you try change express and refresh page
