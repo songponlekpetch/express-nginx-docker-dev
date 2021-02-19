@@ -7,7 +7,9 @@ Install [docker desktop](https://www.docker.com/get-started)
 Install [docker-compose](https://docs.docker.com/compose/install/)
 
 ## Add host on /etc/hosts
+Open hosts file
 > vim /etc/hosts
+Add url mapping with nginx
 > 127.0.0.0 express.com
 
 ## Run time!!!
