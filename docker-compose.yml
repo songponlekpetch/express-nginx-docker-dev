@@ -1,0 +1,22 @@
+version: "3"
+services:
+  express:
+    container_name: express
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    image: lab/express
+    ports: 
+      - 3000:3000
+    volumes: 
+      - ./:/app
+  
+  nginx:
+    container_name: nginx
+    image: nginx:alpine
+    ports: 
+      - "80:80"
+    volumes:
+      - ./nginx/conf.d:/etc/nginx/conf.d
+    depends_on:
+      - express
