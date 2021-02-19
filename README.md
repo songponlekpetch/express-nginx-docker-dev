@@ -22,4 +22,4 @@ Remove docker-compose and remove existing images
 
 
 ## Automatically update when you edit express on local
-Let you try change express and refresh page
+Let you try to change express code and refresh page. Docker will get new update from local at same time. 
